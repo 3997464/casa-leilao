@@ -31,7 +31,7 @@ public class conectaDAO {
 
             
         } catch (SQLException erro){
-            JOptionPane.showMessageDialog(null, "Erro ConectaDAO" + erro.getMessage());
+            JOptionPane.showMessageDialog(null, "Erro ConectaDAO ." + erro.getMessage());
         }
         return conn;
     }
